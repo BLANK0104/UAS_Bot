@@ -1,5 +1,5 @@
 {
-  "name": "UASTelegramBot",
+  "name": "@uas/telegram-bot",
   "version": "0.0.0",
   "description": "UAS Media management",
   "main": "src/index.js",
@@ -14,8 +14,6 @@
     "telegram",
     "hello"
   ],
-
-  
   "author": "Utsav CHandra",
   "license": "MIT",
   "bugs": {
@@ -25,19 +23,12 @@
     "axios": "^1.7.7",
     "telebot": "^1.0.6",
     "telegraf": "^4.16.3"
+  },
+  "plugins": ["react()"],
+  "resolve": {},
+  "server": {
+    "host": true,
+    "strictPort": true,
+    "port": 8000
   }
 }
-
-from:
-
-plugins: [react()],
-resolve: {
-
-to:
-
-plugins: [react()],
-server: {
-host: true,
-strictPort: true,
-port: 8000,
-},
