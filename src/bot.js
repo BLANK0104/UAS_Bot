@@ -18,7 +18,7 @@ const uploadStates = {};
 // Command: /welcome
 bot.command('welcome', (ctx) => {
     const userName = ctx.from.first_name || 'there';
-    ctx.reply(`Welcome ${userName}!`);
+    ctx.reply(`Hii there ${userName}!`);
 });
 
 // Command: /upload
